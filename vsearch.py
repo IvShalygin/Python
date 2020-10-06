@@ -4,4 +4,4 @@ def search4vowels(phrase:str) ->set:
 
 def search4letter(phrase:str,letters:str = 'aeiou') ->set:
     """Returns the set of 'letters' found in 'phrase'."""
-    return set(letetrs).intersection(phrase)
+    return set(letters).intersection(phrase)
